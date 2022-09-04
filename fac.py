@@ -4,7 +4,7 @@ def fac(n):
         print('请输入大于等于0的整数')
     elif n==0:
         print(0)
-    elif n<0:
+    elif n<0:                                  #判断整数
         print('请输入大于等于0的整数')
     else:
         while n>1:
